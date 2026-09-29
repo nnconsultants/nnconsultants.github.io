@@ -63,9 +63,9 @@ a { color: inherit; text-decoration: none; }
 }
 
 .footer-logo {
-  width: 135px !important;
-  max-width: 135px !important;
-  height: 42px !important;
+  width: 180px !important;
+  max-width: 180px !important;
+  height: 55px !important;
 }
 
 .nav {
