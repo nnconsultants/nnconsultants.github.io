@@ -54,14 +54,18 @@ a { color: inherit; text-decoration: none; }
 }
 
 .logo-image {
-  width: 215px;
-  height: auto;
+  width: 155px !important;
+  max-width: 155px !important;
+  height: 48px !important;
   display: block;
   object-fit: contain;
+  object-position: left center;
 }
 
 .footer-logo {
-  width: 175px;
+  width: 135px !important;
+  max-width: 135px !important;
+  height: 42px !important;
 }
 
 .nav {
@@ -85,6 +89,14 @@ a { color: inherit; text-decoration: none; }
 .menu-toggle span {
   display:block; width:24px; height:2px;
   background:#173250; margin:5px;
+}
+
+/* Keep the horizontal logo compact in the navigation */
+.site-header .brand .logo-image {
+  flex: 0 0 auto;
+  width: 155px !important;
+  max-width: 155px !important;
+  height: 48px !important;
 }
 
 /* HERO */
@@ -455,11 +467,15 @@ h2 {
   .menu-toggle{display:block}
 
   .logo-image {
-    width: 175px;
+    width: 135px !important;
+    max-width: 135px !important;
+    height: 42px !important;
   }
 
   .footer-logo {
-    width: 155px;
+    width: 120px !important;
+    max-width: 120px !important;
+    height: 38px !important;
   }
 
   h1{font-size:44px}
