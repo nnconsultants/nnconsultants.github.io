@@ -1,14 +1,11 @@
 # NNConsultants Website
 
-Professional/corporate website with a modern AI/futuristic visual style.
+Light professional/corporate website with modern technology styling.
 
 ## Files
-- `index.html` — website structure and content
-- `styles.css` — responsive design and visual styling
-- `script.js` — mobile navigation and subtle scroll animations
+- `index.html`
+- `styles.css`
+- `script.js`
 
 ## GitHub Pages
-The site is designed to work directly from the `main` branch root of:
-`nnconsultants.github.io`
-
-No build tools are required.
+Upload these files to the root of the `main` branch in `nnconsultants.github.io`.
