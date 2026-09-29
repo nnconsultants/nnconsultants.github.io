@@ -1,4 +1,4 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("year").textContent = "2016";
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
