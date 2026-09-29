@@ -54,8 +54,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .logo-image {
-  width: 155px !important;
-  max-width: 155px !important;
+  width: 165px !important;
+  max-width: 165px !important;
   height: 55px !important;
   display: block;
   object-fit: contain;
